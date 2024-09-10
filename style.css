@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    margin-inline: auto;
+}
+#input{
+    /* pointer-events: none; */
+    height: 2rem;
+    width: 300px;   
+    margin-bottom: 2rem;
+    text-align: right;
+}
+#buttons{
+    margin-inline: auto;
+    max-width: 400px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.numbers, .operators, .functions{
+    margin: .5rem;
+    font-weight: 800;
+    font-size: large;
+}
+label{
+    min-height: 1rem;
+    margin-top: 2rem;    
+    text-align: right;
+}
+#inputs{
+    display: grid;
+    justify-content: center;
+}
